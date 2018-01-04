@@ -1,0 +1,28 @@
+- Named variables and constants
+	const double MI_TO_KM = 1.609
+	const double GAL_TO_LT = 3.785
+	double startMi
+	double startFuel
+	double endMi
+	double endFuel
+	double totalMi
+	double usedFuelGal
+	double totalKm
+	double totalLi
+	double miPerGal
+	double liPerKm
+
+- Unnamed vars 
+	Miles per gallon formula
+	Liters per kilometer formula
+
+- Input data needed by the user
+	Starting mileage, ending mileage, starting fuel, ending fuel.
+
+- Output data 
+	Miles traveled, km traveled, gallons of fuel used, liters of fuel used, miles per gallon, and liters per km.
+
+- How will input data be transformed into output data?
+	The program will calculate the differece between the starting mileage and fuel used and the ending ones and
+	use the difference as the output data to the user. It will calculate the miles per gallon by dividing the total miles output by total gallons.
+	It will repeat the process for the metric output by multiplying by the constants.
